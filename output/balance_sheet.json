@@ -1,0 +1,51 @@
+{
+  "statement": "Balance Sheet",
+  "as_of_date": "2024-12-31",
+  "currency": "USD",
+  "reporting_standard": "US GAAP / IFRS Compliant",
+  "invariants": {
+    "total_assets": 8456200.00,
+    "total_liabilities": 3543800.00,
+    "total_equity": 4912400.00,
+    "balance_equation_delta": 0.00,
+    "is_balanced": true
+  },
+  "assets": {
+    "current_assets": {
+      "cash_and_equivalents": 1485200.00,
+      "accounts_receivable": 1240500.00,
+      "inventory": 820000.00,
+      "prepaid_expenses": 195000.00,
+      "total_current_assets": 3740700.00
+    },
+    "non_current_assets": {
+      "property_plant_equipment_net": 3950000.00,
+      "intangible_assets_and_goodwill": 625000.00,
+      "other_non_current_assets": 140500.00,
+      "total_non_current_assets": 4715500.00
+    },
+    "total_assets": 8456200.00
+  },
+  "liabilities": {
+    "current_liabilities": {
+      "accounts_payable": 890400.00,
+      "accrued_expenses_and_payroll": 412000.00,
+      "short_term_debt": 250000.00,
+      "deferred_revenue": 341400.00,
+      "total_current_liabilities": 1893800.00
+    },
+    "long_term_liabilities": {
+      "long_term_debt": 1500000.00,
+      "deferred_tax_liabilities": 150000.00,
+      "total_long_term_liabilities": 1650000.00
+    },
+    "total_liabilities": 3543800.00
+  },
+  "equity": {
+    "common_stock": 1000000.00,
+    "additional_paid_in_capital": 2500000.00,
+    "retained_earnings": 1412400.00,
+    "accumulated_other_comprehensive_income_cta": 0.00,
+    "total_equity": 4912400.00
+  }
+}

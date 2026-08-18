@@ -1,0 +1,27 @@
+{
+  "statement": "Statement of Cash Flows (Indirect Method)",
+  "period": "Twelve Months Ended December 31, 2024",
+  "currency": "USD",
+  "operating_activities": {
+    "net_income": 612400.00,
+    "depreciation_and_amortization": 162600.00,
+    "change_in_accounts_receivable": -140500.00,
+    "change_in_inventory": -85000.00,
+    "change_in_accounts_payable": 115000.00,
+    "change_in_accrued_expenses": 45000.00,
+    "net_cash_from_operating_activities": 709500.00
+  },
+  "investing_activities": {
+    "capital_expenditures_ppe": -320000.00,
+    "purchase_of_intangibles": -45000.00,
+    "net_cash_used_in_investing_activities": -365000.00
+  },
+  "financing_activities": {
+    "repayment_of_short_term_debt": -50000.00,
+    "dividends_paid": -100000.00,
+    "net_cash_used_in_financing_activities": -150000.00
+  },
+  "net_increase_in_cash": 194500.00,
+  "beginning_cash_balance": 1290700.00,
+  "ending_cash_balance": 1485200.00
+}

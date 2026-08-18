@@ -1,0 +1,13 @@
+{
+  "statement": "Statement of Changes in Equity (SOCIE)",
+  "period": "Twelve Months Ended December 31, 2024",
+  "currency": "USD",
+  "equity_walk": {
+    "beginning_equity": 4400000.00,
+    "net_income": 612400.00,
+    "other_comprehensive_income_cta": 0.00,
+    "dividends_declared": -100000.00,
+    "ending_equity": 4912400.00,
+    "balance_sheet_equity_match": true
+  }
+}

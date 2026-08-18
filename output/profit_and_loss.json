@@ -1,0 +1,19 @@
+{
+  "statement": "Profit & Loss (Income Statement)",
+  "period": "Twelve Months Ended December 31, 2024",
+  "currency": "USD",
+  "summary": {
+    "gross_revenue": 5240000.00,
+    "cost_of_goods_sold": 2350000.00,
+    "gross_profit": 2890000.00,
+    "operating_expenses": {
+      "research_and_development": 890000.00,
+      "sales_and_marketing": 740000.00,
+      "general_and_administrative": 485000.00,
+      "depreciation_and_amortization": 162600.00,
+      "total_operating_expenses": 2277600.00
+    },
+    "operating_income_ebit": 612400.00,
+    "net_income": 612400.00
+  }
+}

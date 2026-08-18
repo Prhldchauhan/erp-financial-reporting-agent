@@ -1,0 +1,30 @@
+{
+  "lineage_specification": "Cryptographic SHA-256 DAG Audit Provenance Trace",
+  "statement_coverage": ["Balance Sheet", "Income Statement", "Cash Flow", "SOCIE"],
+  "sample_cell_lineage": {
+    "target_cell": "BalanceSheet.CashAndEquivalents",
+    "reported_amount": 1485200.00,
+    "dag_hash": "sha256:7f83b1657ff1fc53b92dc18148a1d65dfc2d4b1fa3d677284addd200126d9069",
+    "source_components": [
+      {
+        "source_type": "ERP_Trial_Balance",
+        "file": "trial_balance.csv",
+        "account_code": "1010",
+        "account_name": "Operating Cash - Chase Main",
+        "raw_amount": 1240500.00,
+        "currency": "USD",
+        "fx_rate_applied": 1.0
+      },
+      {
+        "source_type": "ERP_Trial_Balance",
+        "file": "trial_balance.csv",
+        "account_code": "1020",
+        "account_name": "Payroll Cash - SVB",
+        "raw_amount": 244700.00,
+        "currency": "USD",
+        "fx_rate_applied": 1.0
+      }
+    ],
+    "adjustments_applied": []
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "ERP Agentic Financial Reporting Workbench",
+  "description": "Agentic system for ERP-driven financial statement generation with multi-agent validation, COA semantic mapping, manual adjustment quarantine, audit lineage drilldown, and comprehensive architecture docs.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,52 @@
+{
+  "report_title": "Manual Adjustments Invariant & Quarantine Audit Report",
+  "generated_at": "2026-08-17T23:04:00Z",
+  "total_entries_ingested": 10,
+  "quarantined_entries_count": 3,
+  "accepted_entries_count": 7,
+  "quarantine_records": [
+    {
+      "id": "JE-002",
+      "description": "Accrue year-end management performance bonuses",
+      "status": "Quarantined",
+      "violations": [
+        {
+          "type": "UnbalancedEntry",
+          "total_debits": 28500.00,
+          "total_credits": 25000.00,
+          "imbalance_delta": 3500.00
+        }
+      ],
+      "ai_plain_english_memo": "Entry JE-002 violates fundamental double-entry accounting invariants: total debits ($28,500.00) exceed total credits ($25,000.00) by $3,500.00. Posting this entry would directly violate ASC 250 and induce a $3,500.00 out-of-balance condition on the Balance Sheet. The entry has been isolated in the Quarantine Desk. Recommended fix: adjust credit line on account 6310 to $28,500.00.",
+      "remediation_status": "Remediation candidate available (1-click auto-balance)"
+    },
+    {
+      "id": "JE-005",
+      "description": "Reclassify executive conference travel expenses",
+      "status": "Quarantined",
+      "violations": [
+        {
+          "type": "UnmappedAccountCode",
+          "referenced_account": "6315",
+          "reason": "Account code 6315 does not exist in the active Chart of Accounts taxonomy"
+        }
+      ],
+      "ai_plain_english_memo": "Account code 6315 referenced in JE-005 is not present in the active Chart of Accounts. Posting would result in an unclassified expense leakage on the Income Statement. Semantic vector similarity analysis matched this description to parent node '6310 (SaaS & IT Expenses)' with 94% confidence. Recommended fix: remap line item to account 6310.",
+      "remediation_status": "Remediation candidate available (1-click semantic remap)"
+    },
+    {
+      "id": "JE-008",
+      "description": "Intercompany expense reimbursement wash between Sub A and Sub B",
+      "status": "Quarantined",
+      "violations": [
+        {
+          "type": "CircularIntercompanyLoop",
+          "account_code": "2170",
+          "reason": "Circular self-cancelling transfer detected on intercompany account 2170 without external economic or equity impact"
+        }
+      ],
+      "ai_plain_english_memo": "Circular transaction loop detected on intercompany account 2170 between Sub A and Sub B without third-party economic substance. Allowing this entry into the consolidated ledger would artificially inflate gross intercompany balances prior to elimination. Recommended fix: route through intercompany clearing elimination or isolate circular legs.",
+      "remediation_status": "Remediation candidate available (1-click isolate wash leg)"
+    }
+  ]
+}
