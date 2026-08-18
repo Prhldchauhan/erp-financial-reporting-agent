@@ -3,7 +3,7 @@
 > **Submission for AI Agentic Engineer Take-Home Assignment**  
 > **Candidate:** Prahlad Chauhan (`PRAHLAD786CHAUHAN@gmail.com`)  
 > **Chosen Slice:** Slice 2 — Manual Adjustments Agent & Invariant Quarantine Desk  
-> **Live Interactive App:** [https://ais-pre-g7to45vvvbzvn2mmcfirqo-764086186516.asia-east1.run.app](https://ais-pre-g7to45vvvbzvn2mmcfirqo-764086186516.asia-east1.run.app)
+> **Live Interactive App:** [https://erp-agentic-financial-reporting-workbench.ai.studio/](https://erp-agentic-financial-reporting-workbench.ai.studio/)
 
 ---
 
